@@ -1,7 +1,7 @@
 #!/bin/bash
-# Before using, please upload your  wls patch  to /home/cfmmc/Oracle/Middleware/utils/bsu/cache_dir directory 
-#使用前上传补丁介质到/home/cfmmc/Oracle/Middleware/utils/bsu/cache_dir  目录，同时修改bsu.sh 内存大小 -Xmx4096 
-#cd /home/cfmmc/Oracle/Middleware/utils/bsu && vi bsu.sh 
+# Before using, please upload your  wls patch  to /home/rocklei123/Oracle/Middleware/utils/bsu/cache_dir directory 
+#使用前上传补丁介质到/home/rocklei123/Oracle/Middleware/utils/bsu/cache_dir  目录，同时修改bsu.sh 内存大小 -Xmx4096 
+#cd /home/rocklei123/Oracle/Middleware/utils/bsu && vi bsu.sh 
 
 set -x
 ##############################################################################
@@ -9,7 +9,7 @@ set -x
 # Before use, set the parameters
 # Parameter Meaning
 ############################################################################## 
-wls_home="/home/cfmmc/Oracle/Middleware"
+wls_home="/home/rocklei123/Oracle/Middleware"
 wls_soft_dir="${wls_home}/wlserver_10.3/"
 bsu_dir="${wls_home}/utils/bsu"
 cache_dir="${bsu_dir}/cache_dir"
